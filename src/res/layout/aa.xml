@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/cq"
+    android:paddingRight="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/bk"
+        android:background="@drawable/am"
+        android:layout_width="@dimen/as"
+        android:layout_height="@dimen/ar"
+        android:scaleType="center" />
+    <FrameLayout
+        android:id="@id/cp"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="@dimen/at"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+    <FrameLayout
+        android:id="@id/d2"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_gravity="end|center|top"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/ad" />
+        <LinearLayout
+            android:layout_gravity="end|bottom|center"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.0dip">
+            <TextView
+                android:textAppearance="@style/s"
+                android:layout_gravity="center"
+                android:id="@id/bm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/d1"
+                android:visibility="gone"
+                android:layout_width="24.0dip"
+                android:layout_height="24.0dip"
+                android:layout_marginLeft="8.0dip"
+                android:scaleType="center"
+                android:alpha="0.7" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

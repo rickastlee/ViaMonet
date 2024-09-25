@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/bv"
+        android:background="@drawable/n"
+        android:padding="@dimen/c"
+        android:layout_width="@dimen/f"
+        android:layout_height="@dimen/e"
+        android:src="@drawable/az"
+        android:tint="?a8"
+        android:contentDescription="@string/lr" />
+    <TextView
+        android:id="@id/f8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip"
+        android:text="@string/pu"
+        android:layout_toRightOf="@id/bv"
+        android:layout_alignTop="@id/bv"
+        android:layout_alignBottom="@id/bv"
+        style="@style/a5" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/ci"
+        android:background="@drawable/o"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="6.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:layout_below="@id/f8">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:text="@string/wb"
+            android:layout_weight="1.0"
+            style="@style/aa" />
+        <CheckBox
+            android:id="@id/am"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="2.0dip"
+            android:button="?a4" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/o"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:layout_below="@id/ci">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:text="@string/ip"
+            style="@style/aa" />
+        <EditText
+            android:id="@id/av"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="0.0dip"
+            android:layout_marginBottom="0.0dip"
+            android:hint="/Via"
+            android:layout_weight="1.0"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionNext"
+            style="@style/a4" />
+    </LinearLayout>
+</RelativeLayout>

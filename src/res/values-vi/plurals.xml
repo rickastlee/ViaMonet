@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d bộ lọc</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d giờ còn lại</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d phút còn lại</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d thẻ</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d giây còn lại</item>
+    </plurals>
+</resources>

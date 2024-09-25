@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText
+    android:id="@id/ax"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/pc"
+    android:inputType="text"
+    android:imeOptions="actionDone"
+    style="@style/f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

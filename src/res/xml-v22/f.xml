@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/ad"
+        android:enabled="true"
+        android:shortcutId="scan"
+        android:shortcutShortLabel="@string/oy"
+        android:shortcutLongLabel="@string/oy"
+        android:shortcutDisabledMessage="@string/oy">
+        <intent
+            android:targetPackage="mark.via.gp"
+            android:action="mark.via.SCAN"
+            android:targetClass="mark.via.Trampoline" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ae"
+        android:enabled="true"
+        android:shortcutId="search"
+        android:shortcutShortLabel="@string/pc"
+        android:shortcutLongLabel="@string/pc"
+        android:shortcutDisabledMessage="@string/pc">
+        <intent
+            android:targetPackage="mark.via.gp"
+            android:action="mark.via.SEARCH"
+            android:targetClass="mark.via.Trampoline" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ac"
+        android:enabled="true"
+        android:shortcutId="history"
+        android:shortcutShortLabel="@string/a1"
+        android:shortcutLongLabel="@string/a1"
+        android:shortcutDisabledMessage="@string/a1">
+        <intent
+            android:targetPackage="mark.via.gp"
+            android:action="mark.via.HISTORY"
+            android:targetClass="mark.via.Trampoline" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ab"
+        android:enabled="true"
+        android:shortcutId="bookmark"
+        android:shortcutShortLabel="@string/g"
+        android:shortcutLongLabel="@string/g"
+        android:shortcutDisabledMessage="@string/g">
+        <intent
+            android:targetPackage="mark.via.gp"
+            android:action="mark.via.BOOKMARK"
+            android:targetClass="mark.via.Trampoline" />
+    </shortcut>
+</shortcuts>

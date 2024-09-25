@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/a6"
+        android:textStyle="bold"
+        android:textColor="?ab"
+        android:id="@id/f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/e0"
+        android:layout_above="@id/et"
+        android:textDirection="locale" />
+    <TextView
+        android:textSize="@dimen/a8"
+        android:textColor="?ab"
+        android:id="@id/et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:minHeight="64.0dip"
+        android:text="@string/dz"
+        android:layout_centerVertical="true"
+        android:textDirection="locale" />
+    <TextView
+        android:textSize="@dimen/a8"
+        android:textColor="?a6"
+        android:gravity="center"
+        android:id="@id/ec"
+        android:background="@drawable/n"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="12.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:text="@string/e1"
+        android:layout_below="@id/et"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:textSize="@dimen/a8"
+        android:textColor="?ac"
+        android:id="@id/ea"
+        android:background="@drawable/n"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="12.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:text="@string/dy"
+        android:layout_below="@id/et" />
+</RelativeLayout>

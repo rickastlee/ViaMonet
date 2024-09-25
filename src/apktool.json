@@ -1,0 +1,63 @@
+{
+  "apkFileName": "ViaMonet_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png",
+    "wav"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-240623",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "5.9.0",
+    "versionCode": "20240910"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {
+    "META-INF/androidx.legacy_legacy-support-core-utils.version": "0",
+    "META-INF/androidx.loader_loader.version": "0",
+    "META-INF/androidx.lifecycle_lifecycle-livedata.version": "0",
+    "META-INF/androidx.lifecycle_lifecycle-runtime.version": "0",
+    "META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version": "0",
+    "META-INF/androidx.lifecycle_lifecycle-livedata-core.version": "0",
+    "META-INF/annotation-experimental_release.kotlin_module": "8",
+    "META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version": "0",
+    "META-INF/androidx.viewpager_viewpager.version": "0",
+    "META-INF/com.google.dagger_dagger.version": "0",
+    "META-INF/androidx.lifecycle_lifecycle-viewmodel.version": "0",
+    "META-INF/autodispose-androidx-lifecycle_release.kotlin_module": "8",
+    "META-INF/androidx.recyclerview_recyclerview.version": "0",
+    "META-INF/androidx.annotation_annotation-experimental.version": "0",
+    "META-INF/androidx.core_core.version": "0",
+    "META-INF/androidx.print_print.version": "0",
+    "META-INF/androidx.arch.core_core-runtime.version": "0",
+    "META-INF/androidx.tracing_tracing.version": "0",
+    "META-INF/androidx.versionedparcelable_versionedparcelable.version": "0",
+    "META-INF/androidx.savedstate_savedstate.version": "0",
+    "META-INF/androidx.fragment_fragment.version": "0",
+    "META-INF/autodispose-android_release.kotlin_module": "8",
+    "META-INF/androidx.webkit_webkit.version": "0",
+    "META-INF/androidx.activity_activity.version": "0",
+    "META-INF/androidx.customview_customview.version": "0",
+    "META-INF/androidx.dynamicanimation_dynamicanimation.version": "0",
+    "META-INF/androidx.viewpager2_viewpager2.version": "0",
+    "META-INF/androidx.documentfile_documentfile.version": "0",
+    "META-INF/autodispose.kotlin_module": "8",
+    "okhttp3/internal/publicsuffix/publicsuffixes.gz": "0",
+    "META-INF/com/android/build/gradle/app-metadata.properties": "8"
+  },
+  "apkFilePath": "/storage/emulated/0/ViaMonet/ViaMonet.apk",
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "14",
+    "targetSdkVersion": "34"
+  }
+}

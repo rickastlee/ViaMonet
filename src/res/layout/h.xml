@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ub"
+        style="@style/a5" />
+    <ImageView
+        android:id="@id/c1"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="0.0dip"
+        android:layout_below="@id/f8"
+        android:layout_alignTop="@id/ay"
+        android:contentDescription="@string/f1" />
+    <ImageView
+        android:id="@id/bx"
+        android:padding="5.0dip"
+        android:visibility="gone"
+        android:layout_width="28.0dip"
+        android:layout_height="28.0dip"
+        android:layout_marginTop="-8.0dip"
+        android:layout_marginRight="-8.0dip"
+        android:src="@drawable/b_"
+        android:tint="#55ffffff"
+        android:layout_alignTop="@id/c1"
+        android:layout_alignRight="@id/c1"
+        android:contentDescription="@string/s"
+        android:alpha="0.8" />
+    <EditText
+        android:id="@id/ay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/is"
+        android:layout_toRightOf="@id/c1"
+        android:layout_below="@id/f8"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="actionNext"
+        style="@style/a4" />
+    <EditText
+        android:id="@id/az"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/it"
+        android:layout_toRightOf="@id/c1"
+        android:layout_below="@id/ay"
+        android:inputType="textNoSuggestions|textUri"
+        android:imeOptions="actionDone"
+        style="@style/a4" />
+    <TextView
+        android:id="@id/ei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        android:layout_below="@id/az"
+        android:layout_alignParentRight="true"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:layout_toLeftOf="@id/ei"
+        android:layout_below="@id/az"
+        style="@style/a3" />
+</RelativeLayout>

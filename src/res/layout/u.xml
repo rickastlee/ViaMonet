@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tuyafeng.scanner.DecoratedBarcodeView
+        android:id="@id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:bq="ap"
+        app:bt="false" />
+    <com.tuyafeng.support.widget.TYFActionBar
+        android:id="@id/e0"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bf" />
+    <TextView
+        android:textSize="@dimen/a6"
+        android:textColor="@color/af"
+        android:gravity="center"
+        android:id="@id/er"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/bf"
+        android:text="@string/ig" />
+    <ImageView
+        android:layout_gravity="bottom|center"
+        android:id="@id/ai"
+        android:background="@drawable/d"
+        android:padding="10.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_margin="16.0dip"
+        android:src="@drawable/dk"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/r7" />
+    <ImageView
+        android:layout_gravity="bottom|center"
+        android:id="@id/ah"
+        android:background="@drawable/d"
+        android:padding="12.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_margin="16.0dip"
+        android:src="@drawable/c7"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/oz" />
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="one">%d фільтр</item>
+        <item quantity="few">%d фільтра</item>
+        <item quantity="many">%d фільтрів</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">залишилось %d год.</item>
+        <item quantity="one">залишилась 1 год.</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">залишилось %d хв.</item>
+        <item quantity="one">залишилась 1 хв.</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="zero">0 вкладок</item>
+        <item quantity="one">%d вкладка</item>
+        <item quantity="few">%d вкладки</item>
+        <item quantity="many">%d вкладок</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">залишилось %d с.</item>
+        <item quantity="zero">залишилось 0 с.</item>
+        <item quantity="one">залишилась 1 с.</item>
+    </plurals>
+</resources>

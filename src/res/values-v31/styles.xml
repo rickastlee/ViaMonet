@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="d" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="c">8.0dip</item>
+        <item name="e">16.0dip</item>
+    </style>
+    <style name="ae" parent="@android:style/Widget.Material">
+        <item name="android:background">?android:colorBackground</item>
+    </style>
+    <style name="af" parent="@android:style/Widget">
+        <item name="android:tint">?android:colorAccent</item>
+    </style>
+</resources>

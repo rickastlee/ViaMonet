@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/bv"
+        android:background="@drawable/n"
+        android:padding="@dimen/c"
+        android:layout_width="@dimen/f"
+        android:layout_height="@dimen/e"
+        android:src="@drawable/az"
+        android:tint="?a8"
+        android:contentDescription="@string/lr" />
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@id/f8"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0.0dip"
+        android:layout_marginRight="0.0dip"
+        android:layout_marginBottom="0.0dip"
+        android:text="@string/pm"
+        android:layout_toLeftOf="@id/c5"
+        android:layout_toRightOf="@id/bv"
+        android:layout_alignTop="@id/bv"
+        android:layout_alignBottom="@id/bv"
+        android:textDirection="locale"
+        android:layout_toStartOf="@id/c5"
+        android:layout_toEndOf="@id/bv"
+        style="@style/a5" />
+    <ImageView
+        android:id="@id/c5"
+        android:background="@drawable/p"
+        android:padding="@dimen/c"
+        android:layout_width="@dimen/e"
+        android:layout_height="@dimen/e"
+        android:src="@drawable/aw"
+        android:tint="?a8"
+        android:layout_alignTop="@id/f8"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/a7"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/e6"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/bg"
+        android:layout_marginBottom="4.0dip"
+        android:layout_below="@id/f8">
+        <ImageView
+            android:padding="@dimen/c"
+            android:layout_width="@dimen/f"
+            android:layout_height="@dimen/e"
+            android:src="@drawable/bx"
+            android:tint="?a8"
+            android:contentDescription="@string/a7" />
+        <EditText
+            android:id="@id/at"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:hint="@string/a7"
+            android:layout_weight="1.0"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone"
+            android:textDirection="locale"
+            style="@style/a6" />
+        <TextView
+            android:textSize="@dimen/a8"
+            android:textColor="?a6"
+            android:gravity="center"
+            android:id="@id/ex"
+            android:background="@drawable/n"
+            android:padding="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:minWidth="@dimen/f"
+            android:text="@android:string/ok" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/e6"
+        android:layout_alignWithParentIfMissing="true" />
+</RelativeLayout>

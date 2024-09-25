@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d filtrov</item>
+        <item quantity="one">%d filter</item>
+        <item quantity="two">%d filtra</item>
+        <item quantity="few">%d filtri</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">še %d ur</item>
+        <item quantity="zero">še 0 ur</item>
+        <item quantity="one">še 1 ura</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">še %d min</item>
+        <item quantity="zero">še 0 min</item>
+        <item quantity="one">še 1 min</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d zavihkov</item>
+        <item quantity="zero">0 zavihkov</item>
+        <item quantity="one">1 zavihek</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">še %d sek</item>
+        <item quantity="zero">še 0 sek</item>
+        <item quantity="one">še 1 sek</item>
+    </plurals>
+</resources>

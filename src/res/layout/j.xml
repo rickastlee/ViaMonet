@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/a7"
+        android:textColor="?ac"
+        android:gravity="center"
+        android:id="@id/ek"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/gj" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/d6"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="48.0dip" />
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:id="@id/cl"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/e">
+        <ImageView
+            android:id="@id/c_"
+            android:background="@drawable/n"
+            android:padding="@dimen/c"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/d4"
+            android:tint="?a8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/ps" />
+        <SeekBar
+            android:id="@id/d8"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="4.0"
+            style="@style/p" />
+        <ImageView
+            android:id="@id/c8"
+            android:background="@drawable/n"
+            android:padding="@dimen/c"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/aa"
+            android:tint="?a8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/oo" />
+        <ImageView
+            android:id="@id/c6"
+            android:background="@drawable/n"
+            android:padding="@dimen/c"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ck"
+            android:tint="?a8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/ft" />
+        <ImageView
+            android:id="@id/by"
+            android:background="@drawable/n"
+            android:padding="@dimen/c"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/bi"
+            android:tint="?a8"
+            android:layout_weight="1.0"
+            android:contentDescription="@string/hh" />
+        <TextView
+            android:textSize="@dimen/a8"
+            android:typeface="sans"
+            android:textColor="?ab"
+            android:gravity="center"
+            android:id="@id/f3"
+            android:background="@drawable/n"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

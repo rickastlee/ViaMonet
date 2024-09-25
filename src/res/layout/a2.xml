@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/o"
+    android:paddingLeft="12.0dip"
+    android:paddingTop="8.0dip"
+    android:paddingRight="12.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/bz"
+        android:layout_width="@dimen/bd"
+        android:layout_height="@dimen/bd"
+        android:layout_marginRight="8.0dip"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null" />
+    <TextView
+        android:ellipsize="middle"
+        android:id="@id/eo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:layout_marginBottom="2.0dip"
+        android:text="@string/c1"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/c6"
+        android:layout_toRightOf="@id/bz"
+        android:layout_alignWithParentIfMissing="true"
+        style="@style/a_" />
+    <ProgressBar
+        android:id="@id/cr"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="1000"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:layout_below="@id/eo"
+        android:layout_alignLeft="@id/eo"
+        android:layout_alignRight="@id/eo" />
+    <TextView
+        android:textSize="@dimen/a_"
+        android:ellipsize="end"
+        android:id="@id/f1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:maxLines="3"
+        android:layout_below="@id/cr"
+        android:layout_alignLeft="@id/eo"
+        android:layout_alignRight="@id/eo"
+        android:layout_alignWithParentIfMissing="true"
+        style="@style/a9" />
+    <ImageView
+        android:id="@id/c6"
+        android:background="@drawable/n"
+        android:padding="@dimen/bb"
+        android:layout_width="@dimen/bc"
+        android:layout_height="@dimen/bc"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="4.0dip"
+        android:src="@drawable/bb"
+        android:tint="?a8"
+        android:layout_toLeftOf="@id/ao"
+        android:layout_centerVertical="true"
+        android:layout_alignWithParentIfMissing="true" />
+    <CheckBox
+        android:id="@id/ao"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="16.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="4.0dip"
+        android:button="?a4"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

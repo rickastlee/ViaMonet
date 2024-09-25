@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@id/f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0.0dip"
+        android:text="@string/wa"
+        android:layout_toLeftOf="@id/e7"
+        android:layout_alignTop="@id/e7"
+        android:layout_alignBottom="@id/e7"
+        style="@style/a5" />
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@id/e7"
+        android:background="@drawable/n"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/e"
+        android:layout_marginLeft="0.0dip"
+        android:layout_marginRight="0.0dip"
+        android:text="@string/pu"
+        android:layout_alignParentRight="true"
+        style="@style/a4" />
+    <EditText
+        android:id="@id/az"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/it"
+        android:layout_below="@id/f8"
+        android:inputType="textNoSuggestions|textUri"
+        android:imeOptions="actionDone"
+        style="@style/a4" />
+    <EditText
+        android:id="@id/b0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/iu"
+        android:layout_below="@id/az"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="actionNext"
+        style="@style/a4" />
+    <EditText
+        android:id="@id/au"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/iq"
+        android:layout_below="@id/b0"
+        android:inputType="textVisiblePassword|textNoSuggestions"
+        android:imeOptions="actionNext"
+        style="@style/a4" />
+    <TextView
+        android:id="@id/ei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        android:layout_below="@id/au"
+        android:layout_alignParentRight="true"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:layout_toLeftOf="@id/ei"
+        android:layout_below="@id/au"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kk"
+        android:layout_below="@id/au"
+        android:layout_alignParentLeft="true"
+        style="@style/a3" />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>@string/n4</item>
+        <item>@string/n5</item>
+        <item>@string/c4</item>
+    </string-array>
+    <string-array name="b">
+        <item>@string/id</item>
+        <item>@string/d8</item>
+    </string-array>
+    <string-array name="c">
+        <item>@string/eb</item>
+        <item>@string/eg</item>
+        <item>@string/eh</item>
+        <item>@string/o5</item>
+        <item>@string/ei</item>
+        <item>@string/ed</item>
+        <item>@string/ea</item>
+    </string-array>
+    <string-array name="d">
+        <item>@string/ff</item>
+        <item>@string/ia</item>
+        <item>@string/ib</item>
+    </string-array>
+    <string-array name="e">
+        <item>@string/em</item>
+        <item>@string/d</item>
+        <item>@string/g</item>
+        <item>@string/av</item>
+    </string-array>
+    <string-array name="f">
+        <item>@string/em</item>
+        <item>@string/no</item>
+        <item>@string/tv</item>
+        <item>@string/iz</item>
+        <item>@string/m4</item>
+    </string-array>
+    <string-array name="g">
+        <item>@string/fg</item>
+        <item>@string/by</item>
+        <item>@string/c4</item>
+    </string-array>
+    <string-array name="h">
+        <item>@string/i3</item>
+        <item>@string/n7</item>
+        <item>@string/n9</item>
+        <item>@string/n8</item>
+    </string-array>
+    <string-array name="i">
+        <item>@string/vk</item>
+        <item>@string/vj</item>
+        <item>@string/vi</item>
+    </string-array>
+    <string-array name="j">
+        <item>@string/lu</item>
+        <item>@string/gy</item>
+        <item>@string/gx</item>
+        <item>@string/gz</item>
+        <item>@string/gw</item>
+    </string-array>
+    <string-array name="k">
+        <item>@string/is</item>
+        <item>@string/it</item>
+        <item>@string/vy</item>
+    </string-array>
+    <string-array name="l">
+        <item>@string/em</item>
+        <item>@string/bd</item>
+        <item>@string/bf</item>
+        <item>@string/bh</item>
+        <item>@string/bj</item>
+        <item>@string/be</item>
+    </string-array>
+</resources>

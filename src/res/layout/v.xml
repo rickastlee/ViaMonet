@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:textSize="@dimen/a8"
+        android:textColor="?ab"
+        android:gravity="top"
+        android:id="@id/aw"
+        android:background="@android:color/transparent"
+        android:padding="12.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv"
+        android:layout_toLeftOf="@id/c7"
+        android:inputType="textMultiLine" />
+    <ImageView
+        android:id="@id/c7"
+        android:background="@drawable/p"
+        android:padding="12.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:src="@drawable/ci"
+        android:tint="?a8"
+        android:layout_alignTop="@id/aw"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/f5" />
+    <View
+        android:background="?i"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/aw" />
+    <ProgressBar
+        android:id="@id/cs"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:max="100"
+        android:progress="50"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:layout_below="@id/aw" />
+    <TextView
+        android:textSize="@dimen/a8"
+        android:textColor="?ab"
+        android:gravity="top"
+        android:id="@id/fa"
+        android:padding="12.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/cf"
+        android:layout_below="@id/aw"
+        android:textIsSelectable="true" />
+    <ImageView
+        android:id="@id/cf"
+        android:background="@drawable/p"
+        android:padding="12.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:src="@drawable/b7"
+        android:tint="?a8"
+        android:layout_alignTop="@id/fa"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/ap" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_below="@id/fa">
+        <TextView
+            android:textSize="@dimen/a9"
+            android:textColor="?ab"
+            android:gravity="center"
+            android:id="@id/f2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        <ImageView
+            android:id="@id/cc"
+            android:background="@drawable/p"
+            android:padding="14.0dip"
+            android:layout_width="48.0dip"
+            android:layout_height="fill_parent"
+            android:src="@drawable/df"
+            android:tint="?a8"
+            android:contentDescription="@string/f7" />
+        <TextView
+            android:textSize="@dimen/a9"
+            android:textColor="?ab"
+            android:gravity="center"
+            android:id="@id/f7"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" />
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@id/ce"
+            android:padding="9.0dip"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_margin="4.0dip"
+            android:src="@drawable/dl"
+            android:tint="@android:color/white"
+            android:contentDescription="@string/ap" />
+    </LinearLayout>
+</RelativeLayout>

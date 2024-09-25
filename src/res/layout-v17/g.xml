@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ua"
+        android:textDirection="locale"
+        style="@style/a5" />
+    <EditText
+        android:id="@id/ay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:hint="@string/is"
+        android:layout_below="@id/f8"
+        android:inputType="textNoSuggestions"
+        android:imeOptions="actionNext"
+        android:textDirection="locale"
+        style="@style/a4" />
+    <EditText
+        android:id="@id/az"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:hint="@string/it"
+        android:layout_below="@id/ay"
+        android:inputType="textNoSuggestions|textUri"
+        android:imeOptions="actionDone"
+        style="@style/a4" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/eq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16.0dip"
+        android:hint="@string/ip"
+        android:layout_below="@id/az"
+        android:textDirection="locale"
+        style="@style/a4" />
+    <CheckBox
+        android:id="@id/aj"
+        android:padding="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:button="?a4"
+        android:text="@string/b"
+        android:layout_below="@id/eq"
+        android:textDirection="locale"
+        style="@style/a8" />
+    <TextView
+        android:id="@id/ei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        android:layout_below="@id/aj"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/a3" />
+    <TextView
+        android:textColor="@color/g"
+        android:id="@id/ef"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s"
+        android:layout_below="@id/aj"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:layout_toLeftOf="@id/ei"
+        android:layout_below="@id/aj"
+        android:layout_toStartOf="@id/ei"
+        style="@style/a3" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">%d filtrów</item>
+        <item quantity="one">1 filtr</item>
+        <item quantity="few">%d filtry</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">%d godzin do końca</item>
+        <item quantity="zero">0 godzin do końca</item>
+        <item quantity="one">1 godzina do końca</item>
+        <item quantity="few">%d godziny do końca</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d minut do końca</item>
+        <item quantity="zero">0 minut do końca</item>
+        <item quantity="one">1 minuta do końca</item>
+        <item quantity="few">%d minuty do końca</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">%d kart</item>
+        <item quantity="zero">0 kart</item>
+        <item quantity="one">1 karta</item>
+        <item quantity="few">%d karty</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%d sekund do końca</item>
+        <item quantity="zero">0 sekund do końca</item>
+        <item quantity="one">1 sekunda do końca</item>
+        <item quantity="few">%d sekundy do końca</item>
+    </plurals>
+</resources>

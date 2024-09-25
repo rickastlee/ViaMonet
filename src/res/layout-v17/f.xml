@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@id/f8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fa"
+        android:textDirection="locale"
+        style="@style/a5" />
+    <EditText
+        android:id="@id/as"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ht"
+        android:layout_below="@id/f8"
+        android:inputType="textNoSuggestions|textUri"
+        android:imeOptions="actionDone"
+        android:textDirection="locale"
+        style="@style/a4" />
+    <TextView
+        android:ellipsize="end"
+        android:id="@id/ep"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="@dimen/a1"
+        android:minLines="1"
+        android:layout_below="@id/as"
+        style="@style/a8" />
+    <TextView
+        android:id="@id/ei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok"
+        android:layout_below="@id/ep"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/n"
+        android:layout_alignTop="@id/ei"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/a3" />
+    <TextView
+        android:id="@id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"
+        android:layout_toLeftOf="@id/ei"
+        android:layout_alignTop="@id/ei"
+        android:layout_toStartOf="@id/ei"
+        style="@style/a3" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    android:color="@color/a"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/mask">
+        <inset
+            android:insetLeft="@dimen/h"
+            android:insetRight="@dimen/h"
+            android:insetTop="@dimen/i"
+            android:insetBottom="@dimen/i"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape
+                android:shape="rectangle">
+                <corners
+                    android:radius="@dimen/l" />
+                <solid
+                    android:color="@android:color/white" />
+                <padding
+                    android:left="@dimen/j"
+                    android:top="@dimen/k"
+                    android:right="@dimen/j"
+                    android:bottom="@dimen/k" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:id="@id/fd"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_alignTop="@id/f8"
+        android:layout_alignBottom="@id/f8" />
+    <TextView
+        android:textSize="@dimen/a8"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:id="@id/f8"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="16.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="56.0dip"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="56.0dip"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:textSize="18.0dip"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@id/es"
+        android:padding="16.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_centerInParent="true" />
+    <FrameLayout
+        android:textColor="?a8"
+        android:id="@id/bg"
+        android:background="@drawable/p"
+        android:layout_width="@dimen/b5"
+        android:layout_height="@dimen/b5"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/b3"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="@dimen/b3"
+        android:layout_above="@id/c4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/ca"
+            android:padding="@dimen/b4"
+            android:visibility="gone"
+            android:layout_width="@dimen/b5"
+            android:layout_height="@dimen/b5"
+            android:src="@drawable/d9"
+            android:tint="@android:color/white" />
+        <TextView
+            android:textSize="11.0dip"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:id="@id/f3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ImageView
+        android:id="@id/c4"
+        android:padding="@dimen/b4"
+        android:layout_width="@dimen/b5"
+        android:layout_height="@dimen/b5"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/b3"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="@dimen/b3"
+        android:src="@drawable/dn"
+        android:tint="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/ki"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:id="@id/c9"
+        android:background="@drawable/p"
+        android:padding="@dimen/b4"
+        android:layout_width="@dimen/b5"
+        android:layout_height="@dimen/b5"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="@dimen/b3"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="@dimen/b3"
+        android:src="@drawable/cw"
+        android:tint="@android:color/white"
+        android:layout_below="@id/c4"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/n6"
+        android:layout_alignParentEnd="true" />
+</merge>
